@@ -84,8 +84,12 @@ const Hero = () => {
         </p>
       </div>
       <div className="mt-10">
-        <Button>Source code</Button>
-        <Button>Meet the developer</Button>
+        <Button link="https://github.com/delbaoliveira/30day-frontend-challenge">
+          Source code
+        </Button>
+        <Button link="https://www.delbaoliveira.com/">
+          Meet the developer
+        </Button>
       </div>
     </div>
   )
