@@ -17,9 +17,9 @@ const Hero = () => {
   }, 2000)
 
   return (
-    <div className="text-center mt-24">
+    <div className="text-center my-24 mx-auto max-w-3xl">
       {/* TO DO: Abstract this into its own component */}
-      <h1 className="font-extrabold md:text-8xl text-6xl leading-tight">
+      <h1 className="font-extrabold md:text-8xl text-6xl leading-snug">
         <span className="relative block">
           <span
             className={cx("absolute text-gray-800 transition duration-1000", {
@@ -80,7 +80,7 @@ const Hero = () => {
       <div className="text-center">
         <p className="text-gray-600 text-lg mt-10">
           Welcome! 30 days of front-end is a series of daily challenges
-          recreating simple yet delightful UI elements using CSS and JavaScript.
+          recreating simple yet delightful UI elements from around the web.
         </p>
       </div>
       <div className="mt-10">
