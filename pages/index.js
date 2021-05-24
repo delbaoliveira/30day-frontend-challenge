@@ -1,12 +1,14 @@
 import Layout from "@/components/Layout"
 import Hero from "@/components/Hero"
-import Screen from "@/components/Screen"
+import Gallery from "@/components/Gallery"
 
 export default function Home() {
   return (
-    <Layout>
+    <>
       <Hero />
-      <Screen />
-    </Layout>
+      <Layout>
+        <Gallery />
+      </Layout>
+    </>
   )
 }
