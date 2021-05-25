@@ -3,14 +3,14 @@ import { useTimer } from "react-timer-hook"
 
 const Timer = () => {
   const { seconds, minutes, hours, days } = useTimer({
-    expiryTimestamp: 1621983600000,
+    expiryTimestamp: 1624575599000,
     onExpire: () => console.warn("onExpire called"),
     autoStart: true,
   })
 
   return (
-    <div className="polka-bg bg-black font-mono text-center h-full rounded-b-lg flex flex-col justify-center py-10">
-      <div className="md:text-5xl text-4xl text-white font-medium">
+    <div className="flex flex-col justify-center h-full py-10 font-mono text-center bg-black rounded-b-lg polka-bg">
+      <div className="text-4xl font-medium text-white md:text-5xl">
         <span>
           {days < 10 ? `0` : ""}
           {days}
@@ -31,7 +31,7 @@ const Timer = () => {
           {seconds}
         </span>
       </div>
-      <p className="text-gray-400 mt-2">Until the challenge starts</p>
+      <p className="mt-2 text-gray-400">Until the challenge ends</p>
     </div>
   )
 }
