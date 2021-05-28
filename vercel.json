@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "https://www.delbaoliveira.com/blog/challenge-00",
+      "permanent": true
+    }
+  ]
+}
